@@ -1,0 +1,3 @@
+FROM minio/mc
+ADD C:\Users\Z0088592\Downloads\oc\vim.rpm \vim.rpm
+RUN rpm -i .rpm
