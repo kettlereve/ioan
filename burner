@@ -1,2 +1,2 @@
 FROM quay.io/cloud-bulldozer/kube-burner
-RUN microdnf install vim
+RUN microdnf install nodejs
